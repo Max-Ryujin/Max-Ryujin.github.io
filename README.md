@@ -1,9 +1,5 @@
 # Max Kannen
 
-## AGI Countdown
-
-{% include countdown.html %}
-
 ## About Me
 
 I am Max Kannen, a Computer Science student at RWTH University with a keen interest in Artificial Intelligence (AI). My passion lies in exploring cutting-edge technologies and understanding their societal impact. My main programming skills are in Python and C#. I worked as a software developer before and have some experience working in larger teams on big projects. I am currently finishing my degree.
