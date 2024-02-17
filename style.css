@@ -26,7 +26,7 @@ body {
 header {
     background-color: #36577Fff;
     color: #ffffff;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -48,11 +48,11 @@ nav ul li a {
 
 /* Main content area */
 main {
-    padding: 10px;
-    background-color: #BCC2D1ff;
+    background-color: rgba(188, 194, 209, 0.5);
+    /*background-color: #BCC2D1ff;*/
     margin: 20px auto;
     width: 90%;
-    max-width: 800px;
+    max-width: 1000px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -67,6 +67,8 @@ article h2 {
 article p {
     line-height: 1.6;
 }
+
+
 
 /* Footer styles */
 footer {
@@ -83,3 +85,72 @@ footer {
 html {
     height: 100%;
 }
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh; /* Adjust as per your header and footer height */
+}
+
+.social-media-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media-links li {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.social-media-links li a {
+    text-decoration: none;
+    color: #36577Fff; /* Adjust the color as per your theme */
+    font-size: 24px;
+    padding: 8px 16px;
+    border: 1px solid transparent; /* For a subtle border effect */
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.social-media-links li a:hover {
+    color: #fff;
+    background-color: #36577Fff; /* Adjust the hover background color as per your theme */
+    border-color: #36577Fff;
+}
+
+.social-media-links li a i {
+    margin-right: 8px;
+}
+
+/* Add to your style.css */
+
+#about-me {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with opacity */
+    color: #333; /* Dark text for contrast */
+    padding: 10px;
+    border-radius: 6px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 900px; /* Maximum width */
+    margin: 20px auto; /* Center the block and add vertical spacing */
+    line-height: 1.6; /* Improve line spacing */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: justify; /* Justify text for a clean look */
+}
+
+.current-endeavors {
+    font-weight: bold; /* Make certain text stand out */
+}
+
+/* Adjust the padding and max-width as necessary to fit your design */
