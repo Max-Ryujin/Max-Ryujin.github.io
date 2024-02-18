@@ -153,4 +153,28 @@ p {
     font-weight: bold; /* Make certain text stand out */
 }
 
-/* Adjust the padding and max-width as necessary to fit your design */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    background-color: rgba(188, 194, 209, 0.5) !important;
+    border: 1px solid rgba(188, 194, 209, 1) !important;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(188, 194, 209, 0.9) !important;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
