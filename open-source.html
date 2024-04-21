@@ -34,17 +34,19 @@
             
             Training LLMs costs a significant amount of money and requires a lot of experience and hardware. Only a few organizations have the means to do so. The following list is not complete and just covers some of the big ones. 
             
-            Meta is currently the biggest company that open source models. Their model family is called Llama and the current Llama 3 models are available in Two sizes: 8B and 70B. A 405B model is expected soon. The weak points of the current versions are their lack of non-English training data and their small context size. Meta is already working on that. 
+            <p><b>Meta</b> is currently the biggest company that open source models. Their model family is called Llama and the current Llama 3 models are available in Two sizes: 8B and 70B. A 405B model is expected soon. The weak points of the current versions are their lack of non-English training data and their small context size. Meta is already working on that. 
+            </p>
+            <p><b>Mistral</b> is a smaller French company that got investments from Microsoft including computing power. While not all their models are open-source, the ones that are, perform well. they open-sourced a 7B model that was a cornerstone of open source models for quite some time and they open-sourced two Mixture-of-Expert Models (8x7B, and 8x22B) that are still leading non-English open source models, especially at their price point. 
+            </p>
+            <p><b></b>Cohere</b> recently open-sourced a few models including their LLMs Command-R and Command-R+. They perform especially well when used in combination with retrivel augmented generation.
+            </p>
             
-            Mistral is a smaller French company that got investments from Microsoft including computing power. While not all their models are open-source, the ones that are, perform well. they open-sourced a 7B model that was a cornerstone of open source models for quite some time and they open-sourced two Mixture-of-Expert Models (8x7B, and 8x22B) that are still leading non-English open source models, especially at their price point. 
+            <p><b></b>Stability Ai</b> is mostly known for open-sourcing text2image models, but they also open-sourced a few smaller LLMs that are decent for their size.
+            </p>
+            <p><b></b>Google</b> does not open source their Gemini models, but they have a set of open models called Gemma which include some experimental LLms that are not based on Transformers. 
+            </p>
             
-            Cohere recently open-sourced a few models including their LLMs Command-R and Command-R+. They perform especially well when used in combination with retrivel augmented generation.
-            
-            Stability Ai is mostly known for open-sourcing text2image models, but they also open-sourced a few smaller LLMs that are decent for their size.
-            
-            Google does not open source their Gemini models, but they have a set of open models called Gemma which include some experimental LLms that are not based on Transformers. 
-            
-            API-Providers and Hardware. 
+            <h2>API-Providers and Hardware. 
             The main argument for open source models is the ability to run them on your own on your personal machine. Current models range from 2B to over 100B parameters. So let's see what is needed to run them:
             For small models under 7B, you don't need anything special. These models could even run on your phone. Models between 7B and 14B models can be run on most PCs but can be very slow unless you have a modern GPU. Bigger models between 14B and 70B require extremely high-end PCs. Apple's modern high-end devices are especially great since they offer shared memory that is needed for bigger models. Everything over 70B, including the MoE models from Mistral usually are not usable for Home devices. They instead are available on a broad selection of API providers who host different open-source models and compete on price, speed, and latency. I selected a few that excel in one or two of these categories:
             
